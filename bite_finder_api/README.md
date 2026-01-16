@@ -1,10 +1,10 @@
-﻿# Bite Finder API
+﻿# Bite Finder Mobile App
 
-Backend REST API used for authentication and basic data management.
+Bite Finder is a Flutter app that lets users sign up/login and browse food & restaurants.
 
 ## Implemented
-- Student signup and login (JWT)
-- Protected routes via Authorization header
-- CRUD: batches, categories, items
-- Uploads: profile picture and item media
-- Comments on items (replies, likes, mentions)
+- Login
+- Signup (name/username/email/phone/password + Terms & Conditions)
+- Token saved locally (auto-login on next open)
+- Logout
+- Basic home screen scaffold ("Browse food & restaurants")
